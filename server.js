@@ -1,5 +1,5 @@
 var express = require("express");
-var db = require("./models");
+var db = require("./models/biz.js");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 var app = express();
