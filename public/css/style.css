@@ -1,7 +1,5 @@
 div.jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, .64), rgba(0, 0, 0, .65)), url(https://bizcircle.att.com/wp-content/uploads/2015/06/salesteam_7371.jpg);
-    display: block;
-    position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,11 +7,74 @@ div.jumbotron {
     background-size: cover;
     background-position: center;
     color: #fff;
-    font-size: 140%;
+    font-size: 180%;
     text-rendering: optimizeLegibility;
     text-align: center;
+    height: 90vh;
+    
 }
 
+
+
+
+
 body{
-    background: 
+    background: #eaeff7;
+}
+
+div.container ul {
+     list-style: none; 
+    display: inline-block;
+
+}
+ div.numsBox ul li {
+ 
+    border-radius: 50%;
+    border: 1px solid #448bd1;
+    /* margin-right: 80px; */
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #448bd1;
+    display: inline-block;
+    /* padding: 2.5%; */
+    line-height: 50px;
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 7px;
+    
+    
+    
+}
+button {
+    background-color: #448bd1;
+}
+ 
+div.jumbotron button:hover{
+    color: #448bd1;
+    background-color: #fff;
+}
+.numsBox  {
+    width: 100%;
+     padding-left: 16%;
+     padding-right: 16%; 
+}
+
+
+ p.numText  {
+    font-size: 90%;
+    font-weight: lighter;
+}
+p.numHeader  {
+font-size: 100%;
+ font-weight: 300;
+
+}
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
 }
