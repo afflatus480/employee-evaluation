@@ -1,5 +1,5 @@
 div.jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, .64), rgba(0, 0, 0, .65)), url(https://bizcircle.att.com/wp-content/uploads/2015/06/salesteam_7371.jpg);
+    background-image: linear-gradient(rgba(24, 26, 44, .72), rgba(8, 4, 2, .42)), url(https://bizcircle.att.com/wp-content/uploads/2015/06/salesteam_7371.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,10 +7,11 @@ div.jumbotron {
     background-size: cover;
     background-position: center;
     color: #fff;
-    font-size: 180%;
+    font-size: 175%;
     text-rendering: optimizeLegibility;
     text-align: center;
     height: 90vh;
+    
     
 }
 
@@ -18,9 +19,7 @@ div.jumbotron {
 
 
 
-body{
-    background: #eaeff7;
-}
+body{ background: #fff;}
 
 div.container ul {
      list-style: none; 
@@ -31,25 +30,25 @@ div.container ul {
  
     border-radius: 50%;
     border: 1px solid #448bd1;
-    /* margin-right: 80px; */
+    
     height: 50px;
     width: 50px;
     vertical-align: middle;
     font-size: 20px;
     color: #448bd1;
     display: inline-block;
-    /* padding: 2.5%; */
     line-height: 50px;
     text-align: center;
     margin-left: 9%;
     margin-right: 9%;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     
     
     
 }
-button {
+button:active { 
     background-color: #448bd1;
+    color:#fff;
 }
  
 div.jumbotron button:hover{
@@ -72,9 +71,8 @@ font-size: 100%;
  font-weight: 300;
 
 }
+span #leader  {
+    background-image: url('./public/images/leader.jpg')
 
-footer {
-    background-color: #333;
-    padding: 50px;
-    font-size: 80%;
 }
+
