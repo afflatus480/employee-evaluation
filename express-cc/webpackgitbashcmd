@@ -1,0 +1,2 @@
+1)run nodemon
+2)node_modules/.bin/webpack ./script-1.js bundle.js
