@@ -1,0 +1,19 @@
+div.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, .64), rgba(0, 0, 0, .65)), url(https://bizcircle.att.com/wp-content/uploads/2015/06/salesteam_7371.jpg);
+    display: block;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 140%;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+}
+
+body{
+    background: 
+}

@@ -1,0 +1,19 @@
+{
+  "name": "employee-evaluation",
+  "version": "1.0.0",
+  "description": "app that monitors and advises management of subordinates profitability per sale/s",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afflatus480/employee-evaluation.git"
+  },
+  "author": "Robert Zobrist, Chris Scott, Travis Gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afflatus480/employee-evaluation/issues"
+  },
+  "homepage": "https://github.com/afflatus480/employee-evaluation#readme"
+}
