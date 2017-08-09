@@ -2,7 +2,7 @@
 ++++++++++++*/
 
 div.jumbotron.main {
-    
+
     background-image: linear-gradient(rgba(24, 26, 44, .52), rgba(8, 4, 2, .42)), url();
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,6 +23,7 @@ div.container ul {
 }
 
 
+
 /*JumboTron  splash
 ++++++++++++*/
 
@@ -41,10 +42,11 @@ div.jumbotron.splashPage {
     height: 90vh;
 }
 
+
 /*JumboTron  signup
 ++++++++++++*/
 
-div.jumbotron.signup {
+/*.jumbotron.navbar-fixed-top.signup {
     background-image: linear-gradient(rgba(4, 26, 44, .22), rgba(8, 4, 2, .22)), url(https://www.planplusonline.com/wp-content/uploads/2013/11/business-leader1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -57,8 +59,8 @@ div.jumbotron.signup {
     text-rendering: optimizeLegibility;
     text-align: center;
     height: 45vh;
+}*/
 
-}
 
 
 /* Body spashPage 
@@ -101,6 +103,7 @@ div.numsBox ul li {
 }
 
 
+
 /*BUTTONS 
 +++++++++++  */
 
@@ -109,11 +112,40 @@ button:active,
     background-color: #448bd1;
     color: #fff;
     opacity: .9;
-    ;
 }
 
 div.jumbotron button:hover,
 .btn.btn-lg.signinButton:hover {
     color: #448bd1;
     background-color: #fff;
+}
+
+
+/*  Signup.hbs
+=======================*/
+
+form {
+    margin-top: 20%;
+    opacity:1;
+    color: #ffffff;
+   
+}
+
+.main-wrapper {
+
+    background-color: #fcfeef;
+    background-image: linear-gradient(rgba(4, 26, 44, .722), rgba(8, 4, 2, .72)), url(https://cdn.shutterstock.com/shutterstock/videos/1322593/thumb/1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+}
+
+button.btn.btn-lrg {
+    background-color: #448bd1;
+    color: #fff;
+    
 }
