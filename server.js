@@ -1,5 +1,4 @@
 var express = require("express");
-var db = require("./models/biz.js");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 var app = express();
@@ -21,12 +20,7 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-//Imports the routes from burgers_controller
-var routes = require('./controllers/biz_Metrics_Controller.js');
-app.use('/', routes);
 
-db.sequelize.sync().then(function() {
     app.listen(PORT, function() {
         console.log("Listening on port %s", PORT);
     });
-});

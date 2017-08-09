@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/afflatus480/employee-evaluation/issues"
   },
-  "homepage": "https://github.com/afflatus480/employee-evaluation#readme"
+  "homepage": "https://github.com/afflatus480/employee-evaluation#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "forms": "^1.3.0",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.0"
+  }
 }
