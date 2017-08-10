@@ -67,7 +67,7 @@ div.jumbotron.splashPage {
 +++++++++++  */
 
 body {
-    background: #fff;
+    background: #4d5051;
 }
 
 .numsBox {
@@ -88,12 +88,12 @@ p.numHeader {
 
 div.numsBox ul li {
     border-radius: 50%;
-    border: 1px solid #448bd1;
+    border: .05em solid #448bd1;
     height: 50px;
     width: 50px;
     vertical-align: middle;
     font-size: 20px;
-    color: #448bd1;
+    color: #2bcbff;
     display: inline-block;
     line-height: 50px;
     text-align: center;
@@ -109,15 +109,19 @@ div.numsBox ul li {
 
 button:active,
 .btn.btn-lg.signinButton {
-    background-color: #448bd1;
+    background-color: #001bba;
     color: #fff;
     opacity: .9;
 }
 
 div.jumbotron button:hover,
 .btn.btn-lg.signinButton:hover {
-    color: #448bd1;
+    color: #001bba;
     background-color: #fff;
+}
+
+button.bg-primary.btn.btn-lg {
+    background-color: #001bba;
 }
 
 
@@ -143,11 +147,11 @@ form {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    opacity: .9;
+    /*opacity: .9;*/
 }
 
 button.btn.btn-lrg {
-    background-color: #448bd1;
+    background-color: #001bba;
     color: #fff;
     
 }
