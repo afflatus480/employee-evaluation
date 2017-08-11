@@ -39,7 +39,7 @@ div.jumbotron.splashPage {
     font-size: 175%;
     text-rendering: optimizeLegibility;
     text-align: center;
-    height: 90vh;
+    height: 82vh;
 }
 
 
@@ -67,7 +67,7 @@ div.jumbotron.splashPage {
 +++++++++++  */
 
 body {
-    background: #4d5051;
+    background: #f9f7f7;
 }
 
 .numsBox {
@@ -77,23 +77,26 @@ body {
 }
 
 p.numText {
-    font-size: 90%;
-    font-weight: lighter;
+    font-size: 91%;
+    font-weight: bolder;
+    text-rendering: optimizeLegibility;
+    color:#565e5e;
 }
 
 p.numHeader {
-    font-size: 100%;
-    font-weight: 300;
+    font-size: 105%;
+    font-weight: 100;
+    color: #565e5e;
 }
 
 div.numsBox ul li {
     border-radius: 50%;
-    border: .05em solid #448bd1;
+    border: .07em solid #02b5a0;
     height: 50px;
     width: 50px;
     vertical-align: middle;
-    font-size: 20px;
-    color: #2bcbff;
+    font-size: 18px;
+    color: #373d3a;
     display: inline-block;
     line-height: 50px;
     text-align: center;
@@ -108,21 +111,35 @@ div.numsBox ul li {
 +++++++++++  */
 
 button:active,
-.btn.btn-lg.signinButton {
-    background-color: #001bba;
+
+button.bg-primary.btn.btn-lg {
+    background-color: #31c613;
     color: #fff;
-    opacity: .9;
+   
+    
+}
+.btn.btn-lg.signinButton{
+    background-color: #0293b3;
+    color:#fff;
+    opacity: .7;
 }
 
 div.jumbotron button:hover,
-.btn.btn-lg.signinButton:hover {
-    color: #001bba;
+
+button.bg-primary.btn.btn-lg:hover {
+    color: #31c613;
+    background-color:#fff;
+    
+}
+.btn.btn-lg.signinButton:hover{
+    color:#0293b3;
     background-color: #fff;
 }
 
-button.bg-primary.btn.btn-lg {
-    background-color: #001bba;
+button.btn.btn-lrg.pull-middle.add-employees  {
+    min-width: 10em;
 }
+
 
 
 /*  Signup.hbs
@@ -150,19 +167,28 @@ form {
     /*opacity: .9;*/
 }
 
-button.btn.btn-lrg {
-    background-color: #001bba;
-    color: #fff;
-    
-}
 
-#logo {
+
+img#logo {
     position: absolute;
-    top:2px;
-    left:15px;
-    height:95%;
+    top:5px;
+    left:5px;
+    
+    
     border-radius:7px;
 }
 #navvers  {
     background-color: transparent;
+}
+
+/*Add Employees
+    FORM
+++++++++++++*/
+
+#body-add-employee{
+    background-color: black;
+}
+
+div.col-lg-6.col-xs-12.add-employees{
+    color:pink;
 }
