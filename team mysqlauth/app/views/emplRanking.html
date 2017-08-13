@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+   <script type="text/javascript" src="/js/lib/dummy.js"></script> 
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">    
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+    
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+  
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+      
+      <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap-material-design@0.5.10/dist/css/bootstrap-material-design.css">
+   
+     
+      <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap-material-design@0.5.10/dist/css/ripples.css">
+    
+     
+      <script type="text/javascript" src="https://unpkg.com/bootstrap-material-design@0.5.10/dist/js/material.js"></script>
+    
+     
+      <script type="text/javascript" src="https://unpkg.com/bootstrap-material-design@0.5.10/dist/js/ripples.js"></script>
+    
+    
+      <script type="text/javascript" src="https://unpkg.com/survey-knockout@0.12.15"></script>
+    
+     
+      <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+  
+  <title></title>
+ 
+</head>
+
+<body>
+	<a href="/dashboard" class="list-group-item">Home</a>
+  <div id="surveyElement"></div>
+
+<div id="result"></div>
+
+  
+  <script>
+  // tell the embed parent frame 
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "hpdnnd5c"
+    }], "*")
+  }
+</script>
+
+</body>
+
+</html>
